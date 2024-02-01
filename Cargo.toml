@@ -1,0 +1,11 @@
+[package]
+name = "adorable_journey"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+resolver = "2" # Important! wgpu/Bevy needs this!
+
+[dependencies]
+# bevy = { path = "/Volumes/ModelY/Y-gitProject/bevy", features = ["dynamic_linking"]}
+bevy = "0.12.1"
